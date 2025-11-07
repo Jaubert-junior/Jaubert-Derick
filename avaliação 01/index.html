@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avaliação</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>avaliação</h1>
+    <h3>Q1-Calculadora de IMC</h3>
+    <input type="number" id="peso">
+    <br>
+    <input type="number" id="altura">
+    <br>
+    <button id="botaocaucular">calcular</button>
+    <div id="IMC"></div>
+    <div id="resultado1"></div>
+
+    <h3>Q2-Simulador de votação</h3>
+
+    <label for="candidatos">Escolha um candidato: </label>
+
+    <label for="candidatos">
+        <select name="votação" id="votação">
+            <option value= 0>Candidato 1</option>
+            <option value= 1>Candidato 2</option>
+            <option value= 2>Candidato 3</option>
+        </select>
+        <br>
+    </label>
+    <button id="votar">votar</button>
+    <button id='apurar'>apurar</button>
+    <button id="zerar">zerar</button>
+    <div id="resposta"></div>
+
+    <h3>Q3-conversor de temperatura</h3>
+    <input type="number" id="valor">
+
+    <select id="tipo_conversão">
+        <option value="0">Celcius para Fahrenheit</option>
+        <option value="1">Fahrenheit para Celsius</option>
+    </select>
+
+    <button id="botaoconverter">converter</button>
+     <div id="resultado3"></div>
+
+    <h3>Q4-controle de gastos diários</h3>
+    valor gasto: <input type="number" id="valor_gasto">
+    <button id="botaoadicionar">adicionar</button>
+    <button id="botaoresumo">resumo</button>
+    <div id="total"></div><div id="mensagem"></div>
+
+    <h3>Q5-jogo de adivinhação</h3>
+    Número: <input type="number" id="numero">
+    <button id="botaoverificar">verificar</button>
+    <div id="constatação"></div>
+</body>
+</html>
